@@ -8,5 +8,5 @@ Reads the markdown file and processes the content.
 - **String** `input`: The path to the markdown file.
 
 #### Return
-- **String** The ANSII-styled output.
+- **String** The ANSI-styled output.
 

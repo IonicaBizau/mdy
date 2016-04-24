@@ -1,7 +1,7 @@
 
 # `$ mdy` [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/mdy.svg)](https://www.npmjs.com/package/mdy) [![Downloads](https://img.shields.io/npm/dt/mdy.svg)](https://www.npmjs.com/package/mdy) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-> View markdown files in your command line with ASNII styled images.
+> View markdown files in your command line with ANSI styled images.
 
 ## :cloud: Installation
 
@@ -18,10 +18,9 @@ Then, run `mdy --help` and see what the CLI tool can do.
 
 ```
 $ mdy --help
-0.5
 Usage: mdy <path> [options]
 
-View markdown files in your command line with ASNII styled images.
+View markdown files in your command line with ANSI styled images.
 
 Command arguments:
   <path>  The path to the markdown file.
