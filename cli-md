@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+"use strict";
+
+const cliMd = require(".")
+    , Tilda = require("tilda")
+    ;
+
+new Tilda(`${__dirname}/package.json`, {
+    args: [
+        {
+            name: "path"
+          , desc: "The path to the markdown file."
+          , type: String
+        }
+    ]
+}).main(a => {
+    console.log(cliMd(a.args.path));
+});

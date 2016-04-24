@@ -1,0 +1,39 @@
+{
+  "name": "cli-md",
+  "version": "1.0.0",
+  "description": "Markdown preview in your command line.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cli-md": "./cli-md"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "dependencies": {
+    "abs": "^1.2.1",
+    "fibers": "^1.0.10",
+    "image-to-ascii": "^3.0.1",
+    "marked": "^0.3.5",
+    "marked-terminal": "^1.6.1",
+    "read-utf8": "^1.1.0",
+    "tilda": "^4.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/cli-md.git"
+  },
+  "keywords": [
+    "cli",
+    "md",
+    "markdown",
+    "command",
+    "line"
+  ],
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/cli-md/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/cli-md#readme"
+}
