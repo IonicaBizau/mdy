@@ -1,13 +1,13 @@
 {
-  "name": "cli-md",
+  "name": "mdy",
   "version": "1.0.0",
-  "description": "Markdown preview in your command line.",
+  "description": "View markdown files in your command line with ASNII styled images.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "cli-md": "./cli-md"
+    "mdy": "./mdy"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "MIT",
@@ -23,7 +23,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IonicaBizau/cli-md.git"
+    "url": "git+https://github.com/IonicaBizau/mdy.git"
   },
   "keywords": [
     "cli",
@@ -33,7 +33,7 @@
     "line"
   ],
   "bugs": {
-    "url": "https://github.com/IonicaBizau/cli-md/issues"
+    "url": "https://github.com/IonicaBizau/mdy/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/cli-md#readme"
+  "homepage": "https://github.com/IonicaBizau/mdy#readme"
 }
