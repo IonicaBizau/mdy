@@ -1,34 +1,62 @@
 
-# cli-md [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/cli-md.svg)](https://www.npmjs.com/package/cli-md) [![Downloads](https://img.shields.io/npm/dt/cli-md.svg)](https://www.npmjs.com/package/cli-md) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# `$ mdy` [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/mdy.svg)](https://www.npmjs.com/package/mdy) [![Downloads](https://img.shields.io/npm/dt/mdy.svg)](https://www.npmjs.com/package/mdy) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-> Markdown preview in your command line.
+> View markdown files in your command line with ASNII styled images.
 
 ## :cloud: Installation
 
+You can install the package globally and use it as command line tool:
+
+
 ```sh
-$ npm i --save cli-md
+$ npm i -g mdy
 ```
 
+
+Then, run `mdy --help` and see what the CLI tool can do.
+
+
+```
+$ mdy --help
+0.5
+Usage: mdy <path> [options]
+
+View markdown files in your command line with ASNII styled images.
+
+Command arguments:
+  <path>  The path to the markdown file.
+
+Options:
+  -v, --version  Displays version information.
+  -h, --help     Displays this help.
+
+Documentation can be found at https://github.com/IonicaBizau/mdy#readme.
+```
+
+## :clipboard: Example
+
+
+Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm`:
+
+```sh
+$ npm i --save mdy
+```
+
+
+
+```js
+const cliMd = require("mdy");
+
+console.log(cliMd(`${__dirname}/../README.md`));
+```
+
+## :memo: Documentation
+
+For full API reference, see the [DOCUMENTATION.md][docs] file.
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-
- - [`football`](https://github.com/finnp/football) (by Finn Pauls)—Markdown presentations in your terminal
- - [`greenkeeper`](http://greenkeeper.io) (by Stephan Bönnemann)—Your software, up to date, all the time
- - [`help-out`](https://github.com/finnp/help-out) (by Finn Pauls)—Help people at nodeschool/discussions
- - [`ipynb`](https://github.com/finnp/ipynb) (by Finn Pauls)—Simple .ipynb file reader
- - [`javascripting-es`](https://github.com/a0viedo/javascripting) (by sethvincent)—Aprende JavaScript aventurandote en la terminal.
- - [`javascripting-jp`](https://github.com/ledsun/javascripting) (by ledsun)—ターミナルの冒険でJavaScriptを学びましょう。
- - [`javascripting-vi`](https://github.com/NgaNguyenDuy/javascripting-vi)—Learn JavaScript by adventuring around in the terminal.
- - [`javascripting-windows`](https://github.com/sethvincent/javascripting) (by sethvincent)—[bundles git dependencies for Windows] Learn JavaScript by adventuring around in the terminal.
- - [`learn-sass`](https://github.com/claudiopro/learn-sass#readme) (by claudiopro)—Learn SASS and SCSS through a workshopper adventure.
- - [`learnjs`](https://github.com/mikeal/learnjs) (by Mikeal Rogers)—Workshopper for learning JavaScript.
- - [`learnnodeserver`](https://npmjs.com/package/learnnodeserver) (by Mikael Roos)—Learn to create a server using Node.js.
- - [`test-anything`](https://github.com/finnp/test-anything) (by Finn Pauls)—Learn to test anything with TAP
 ## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
