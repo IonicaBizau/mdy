@@ -1,4 +1,6 @@
 
+[![mdy](http://i.imgur.com/ja2OvMY.png)](#)
+
 # `$ mdy` [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/mdy.svg)](https://www.npmjs.com/package/mdy) [![Downloads](https://img.shields.io/npm/dt/mdy.svg)](https://www.npmjs.com/package/mdy) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > View markdown files in the command line with ANSI styled images.

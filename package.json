@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/mdy/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/mdy#readme"
+  "homepage": "https://github.com/IonicaBizau/mdy#readme",
+  "blah": {
+    "h_img": "http://i.imgur.com/ja2OvMY.png"
+  }
 }
