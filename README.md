@@ -5,6 +5,8 @@
 
 > View markdown files in the command line with ANSI styled images.
 
+[![mdy](http://i.imgur.com/bFgHGmu.png)](#)
+
 ## :cloud: Installation
 
 You can install the package globally and use it as command line tool:
