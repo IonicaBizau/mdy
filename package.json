@@ -1,6 +1,6 @@
 {
   "name": "mdy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "View markdown files in the command line with ANSI styled images.",
   "main": "lib/index.js",
   "scripts": {
@@ -38,5 +38,17 @@
   "blah": {
     "h_img": "http://i.imgur.com/ja2OvMY.png",
     "ex_img": "http://i.imgur.com/bFgHGmu.png"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "cli.js",
+    "index.js"
+  ]
 }
