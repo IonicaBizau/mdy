@@ -2,7 +2,7 @@
 
 "use strict";
 
-const cliMd = require(".")
+const cliMd = require("..")
     , Tilda = require("tilda")
     ;
 
