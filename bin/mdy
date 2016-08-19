@@ -6,7 +6,7 @@ const cliMd = require("..")
     , Tilda = require("tilda")
     ;
 
-new Tilda(`${__dirname}/package.json`, {
+new Tilda(`${__dirname}/../package.json`, {
     args: [
         {
             name: "path"
