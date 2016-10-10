@@ -1,6 +1,6 @@
 {
   "name": "mdy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "View markdown files in the command line with ANSI styled images.",
   "main": "lib/index.js",
   "scripts": {
