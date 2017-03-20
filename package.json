@@ -1,6 +1,6 @@
 {
   "name": "mdy",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "View markdown files in the command line with ANSI styled images.",
   "main": "lib/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "bin": {
     "mdy": "./bin/mdy"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "dependencies": {
     "abs": "^1.2.1",
@@ -43,12 +43,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
