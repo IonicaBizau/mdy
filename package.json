@@ -1,6 +1,6 @@
 {
   "name": "mdy",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "View markdown files in the command line with ANSI styled images.",
   "main": "lib/index.js",
   "scripts": {
@@ -49,6 +49,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
